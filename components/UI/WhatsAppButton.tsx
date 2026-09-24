@@ -2,7 +2,7 @@ import React from 'react';
 import { MessageCircle } from 'lucide-react';
 import { COMPANY_INFO } from '../../constants';
 
-export const WhatsAppButton = () => {
+export const WhatsAppButton: React.FC = () => {
   return (
     <a
       href={`https://wa.me/${COMPANY_INFO.whatsapp}?text=Hello, I am interested in getting a property from Land and Properties.`}
